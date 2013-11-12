@@ -30,7 +30,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    [self.scrollView setScrollEnabled:YES];
     [self.scrollView setContentSize:(CGSizeMake(320, 480))];
     
     [self registerForKeyboardNotifications];

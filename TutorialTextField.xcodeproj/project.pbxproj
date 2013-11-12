@@ -120,11 +120,8 @@
 		DB07E7A4183240210003F8D0 /* TutorialTextField */ = {
 			isa = PBXGroup;
 			children = (
-				DB07E7AD183240210003F8D0 /* AppDelegate.h */,
-				DB07E7AE183240210003F8D0 /* AppDelegate.m */,
 				DB07E7B0183240210003F8D0 /* Main.storyboard */,
-				DB07E7B3183240210003F8D0 /* ViewController.h */,
-				DB07E7B4183240210003F8D0 /* ViewController.m */,
+				DBEBD5F81832B36C00273913 /* Principales */,
 				DB07E7D5183249150003F8D0 /* Problema */,
 				DB07E7D61832491D0003F8D0 /* Solucion */,
 				DB07E7B6183240210003F8D0 /* Images.xcassets */,
@@ -179,6 +176,17 @@
 				DB07E7DB183249970003F8D0 /* SolucionViewController.m */,
 			);
 			name = Solucion;
+			sourceTree = "<group>";
+		};
+		DBEBD5F81832B36C00273913 /* Principales */ = {
+			isa = PBXGroup;
+			children = (
+				DB07E7AD183240210003F8D0 /* AppDelegate.h */,
+				DB07E7AE183240210003F8D0 /* AppDelegate.m */,
+				DB07E7B3183240210003F8D0 /* ViewController.h */,
+				DB07E7B4183240210003F8D0 /* ViewController.m */,
+			);
+			name = Principales;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,6 +502,7 @@
 				DB07E7CF183240210003F8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB07E7D0183240210003F8D0 /* Build configuration list for PBXNativeTarget "TutorialTextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +511,7 @@
 				DB07E7D2183240210003F8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
