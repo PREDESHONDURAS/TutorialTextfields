@@ -30,9 +30,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    primerTextField.delegate = self;
-    segundoTextField.delegate = self;
-    tercerTextField.delegate = self;
+    [self.scrollView setScrollEnabled:YES];
+    [self.scrollView setContentSize:(CGSizeMake(320, 480))];
     
     [self registerForKeyboardNotifications];
 }
@@ -92,8 +91,8 @@
 - (void)keyboardWillBeHidden:(NSNotification*)aNotification
 {
     UIEdgeInsets contentInsets = UIEdgeInsetsZero;
-    scrollView.contentInset = contentInsets;
-    scrollView.scrollIndicatorInsets = contentInsets;
+    self.scrollView.contentInset = contentInsets;
+    self.scrollView.scrollIndicatorInsets = contentInsets;
 }
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField

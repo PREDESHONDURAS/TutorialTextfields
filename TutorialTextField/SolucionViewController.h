@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SolucionViewController : UIViewController <UITextFieldDelegate, UIScrollViewDelegate>
+@interface SolucionViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *primerTextField;
 @property (weak, nonatomic) IBOutlet UITextField *segundoTextField;

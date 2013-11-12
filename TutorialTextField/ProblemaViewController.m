@@ -29,10 +29,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-
-    primerTextField.delegate = self;
-    segundoTextField.delegate = self;
-    tercerTextField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
